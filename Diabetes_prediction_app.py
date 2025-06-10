@@ -47,7 +47,7 @@ def main():
     Insulin = st.number_input("Insulin", min_value=0, max_value=300, value=100)
     BMI = st.number_input("BMI", min_value=0, max_value=200, value=50)
     DiabetesPedigreeFunction = st.number_input("DiabetesPedigreeFunction", min_value=0, max_value=20, value=4)
-    Age = st.number_input("Age", min_value=0, max_value=10, value=4)
+    Age = st.number_input("Age", min_value=0, max_value=100, value=4)
 
     # Now we are going to create a button at the bottom which when clicked sends all the user input into the model
     if st.button("Predict Your Score"):
